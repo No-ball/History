@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>New tool list - Datas</title>
+</head>
+<body>
+    <script>
+        function printValue(sliderID, textbox){
+            var x = document.getElementById(textbox);
+            var y = document.getElementById(sliderID);
+        }
+        window.onload = function() {
+            printValue('range1', 'ruangeValue1')
+        }
+     </script>
+     <form action="#" method="POST">
+         <fieldset>
+            <p>number: <br />
+                <input type="number" name="user_number" min="-10" max="10" step="2" value="4">
+            </p>
+            <p>number range: <br />
+                <input type="range" name="user_range" id="range1" min="-10" max="10" step="2" value="4" onchange="printValue('range1, rangeValue1')">
+                <input type="text" id="rangeValue1" size="2" readonly>
+            </p>
+            <input type="submit"> </form>
+         </fieldset>
+     </form>
+</body>
+</html>

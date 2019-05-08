@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Button Receieve datas 1</title>
+</head>
+<body>
+    <div>
+        <?php
+            echo "I'm 10.php"."<br>";   
+            echo $_POST['username']."<br>";
+            echo $_POST['school']."<br>";
+        ?>
+    </div>
+</body>
+</html>

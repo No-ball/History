@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Different Data Passing</title>
+</head>
+<body>
+    <form action="9.php" name="f1" method="post">
+        <fieldset>
+            <p>Name: <input type="text" name="username"></p>
+            <p>School: <input type="text" name="school"></p>
+            <input type="button" value="A" onclick="f1.action='10.php'; f1.submit();">
+            <input type="button" value="B" onclick="f1.action='11.php'; method = 'get'; f1.submit();">
+            <input type="button" value="Set Button" onclick="windows.alert('hi')">
+            <input type="submit"> <input type="reset"> <br>
+            <input type="hidden" name="money" value="50">
+        </fieldset>
+    </form>
+</body>
+</html>
