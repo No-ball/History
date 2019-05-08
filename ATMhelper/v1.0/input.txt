@@ -1,0 +1,15 @@
+; you host IP below
+; 下面伺服器名稱
+Host Number
+; your name below
+; 下面是你的學號
+ID
+; your password below
+; 下面是你的密碼
+PASS
+; Enter your saveing path
+; 下面是你在自己的電腦存放的地方 預設:C:/NCU/Homework
+C:/NCU/Homework
+; Enter you host saveing path
+; 下面是你在伺服器上的電腦存放的地方 預設:Homework
+Homework

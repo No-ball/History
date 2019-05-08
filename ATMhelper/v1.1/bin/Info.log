@@ -1,0 +1,32 @@
+﻿;,
+;your host server IP below,
+;下面輸入伺服器IP,
+140.115.36.10
+;your student below,
+;下面輸入你的學號,
+107601000
+;your Host server password below,
+;下面輸入伺服器密碼,
+107601000@atm
+;
+;
+;
+;
+;
+;
+;
+;Enter your saveing path,
+;存放電腦的資料夾 預設:C:\ATMFortran\Homework,
+C:\ATMFortran\Homework
+;Enter you host saveing path,
+;存在伺服器的資料夾:Homework,
+Homework
+;FTP location,
+;FTP 資料夾位置 預設:/upload/1072/,
+/upload/1072/
+;Putty install location,
+;Putty 的安裝位置 (.exe) 預設 "C:/Program Files/Putty/putty.exe",
+"C:\Program Files\Putty\putty.exe"
+;bat file location
+;檔案位置 預設 C:/ATMhelper
+C:\ATMhelper
